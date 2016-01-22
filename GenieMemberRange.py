@@ -1,4 +1,4 @@
-#-*- encoding: utf-8 -*-
+#j-*- encoding: utf-8 -*-
 #Genie Web Crawler
 import threading
 import requests as rs
@@ -53,7 +53,7 @@ def getUserValue(begin, end, t):
 				begin = mid + 1
 			print ("False")
 		print ("begin: %d\nend: %d") % (begin, end)
-		time.sleep(0.1)
+		#time.sleep(0.1)
 	if t:
 		maxV = ans
 	else:
